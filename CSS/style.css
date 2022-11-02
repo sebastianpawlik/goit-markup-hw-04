@@ -30,7 +30,6 @@ a {
 img {
     display: block;
 }
-
 .section {
     background-color: var(--main-white);
     padding: 94px 0;
@@ -39,7 +38,6 @@ img {
     max-width: 1200px;
     margin: 0 auto;
     }
-
     /* stylowanie logo */
 .logo1 {
     font-family: 'Raleway';
@@ -75,24 +73,19 @@ img {
     display:flex;
     align-items: center;
     justify-content: space-between;
-
 }
 .navigation-logo {
     display: flex;
     text-decoration: none;
-    /* width: 145px ; */
     height: 31px;
     margin-left: 0;
     margin-right: 93px;
 }
 .navigation-list{
     display: flex;
-    /* margin: 0 auto; */
     align-items: center;
     justify-content: flex-start;
-    /* margin-right:140px; */
        }
-
 .navigation-list-item:not(:last-child){
     margin-right: 46px;
 }
@@ -122,8 +115,8 @@ img {
     line-height: 1.16;
     letter-spacing: 0.06em;
     text-align: center;
-    justify-content:center;}
-     
+    justify-content:center;
+    }  
 .index-button {
     display:flex;
     background-color: var(--main-blue);
@@ -198,12 +191,10 @@ img {
 .pic-whatwedo:not(:last-child){
     margin-right: 30px;
 }
-
 /* stylowanie obrazów nasz zespol */
 .team-container {
     display: flex;
     flex-direction: column;
-    /* max-width: 1600px; */
     margin: 0 auto;
     align-items: center;
     }
@@ -212,7 +203,6 @@ img {
 }
 .text-pictures-header2 {
     font-weight: 700;
-    /* padding-top: 94px; */
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -221,10 +211,8 @@ img {
     display:flex;
     justify-content: center;
     margin-top:50px;
-    /* margin-bottom: 94px; */
     align-items:center;
     }
-
 .single-picture {
     width:270px;
     background-color: var(--main-white);
@@ -377,12 +365,10 @@ body {
 .mail:hover{
         color: var(--main-blue)
      }
-     
 .wrapper{
     display:flex;
     flex-wrap: wrap;
     }
-
 .portfolio-buttons{
     display: flex;
     flex-direction: row;
@@ -446,9 +432,4 @@ figcaption{
     margin-left:24px;
     line-height:2;
     }
-    /* .no-padding-bottom{
-        padding-bottom: 0;
-       }
-    .no-padding-top {
-        padding-top:0;
-        } */
+ 
