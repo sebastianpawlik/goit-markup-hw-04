@@ -12,7 +12,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@700&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="CSS/style.css">
-    <!-- <a href="portfolio.html">Portfolio</a> -->
     <title>index</title>
 
 </head>
@@ -21,22 +20,26 @@
         <section class="container">
             <div class="header">
                 <nav class="navigation-wrapper">
-                <div class="left-wrapper">
-                    <a href="index.html" class="navigation-logo"><span class="logo1">Web</span><span class="logo2">Studio</span></a>
-                <ul class="bullets navigation-list">
-                    <li class="navigation-list-item"><a class="text-agencja link" href="index.html">Agencja</a></li>
-                    <li class="navigation-list-item"><a class="text-portfolio link" href="portfolio.html">Portfolio</a></li>
-                    <li class="navigation-list-item"><a class="text-kontakt link" href="Kontakt">Kontakt</a></li>
-                </ul>
-                </div>
-                <ul class="bullets navigation-list">
-                    <li class="navigation-contacts"><a class="mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="navigation-contacts"><a class="phone link" href="tel:+48111111111">+48 111 111 111</a></li>
-                </ul>
-            </nav>
+                    <div class="left-wrapper">
+                        <a href="index.html" class="navigation-logo"><span class="logo1">Web</span><span class="logo2">Studio</span></a>
+                        <ul class="bullets navigation-list">
+                        <li class="navigation-list-item"><a class="text-agencja link" href="index.html">Agencja</a></li>
+                        <li class="navigation-list-item"><a class="text-portfolio link" href="portfolio.html">Portfolio</a></li>
+                        <li class="navigation-list-item"><a class="text-kontakt link" href="Kontakt">Kontakt</a></li>
+                        </ul>
+                    </div>
+                    <div class="right-wrapper">
+                    <ul class="bullets navigation-list">
+                        <li class="navigation-contacts"><a class="mail link" href="mailto:info@devstudio.com">
+                            <svg class="icon" width="16" height="12" ><use href="/images/icons.svg#icon-envelope"></use></svg>info@devstudio.com</a></li>
+                        <li class="navigation-contacts"><a class="phone link" href="tel:+48111111111">
+                            <svg class="icon" width="10" height="16"><use href="/images/icons.svg#icon-phone"></use></svg>+48 111 111 111</a></li>
+                    </ul>
+                    </div>
+                </nav>
             </div>
-            </section>
-</header>
+        </section>
+    </header>
 <main>
     <section >
         <div class="header-container container">
@@ -47,7 +50,8 @@
     <section class="section">   
         <div class="container ">
          <ul class="bullets index-text-container">
-            <li class="text-item">  
+            <li class="text-item">
+                <svg><use width="70" height="70" x="100" y="25" href="/images/icons.svg#icon-antenna-1"></use></svg>
                 <h2 class="text-block-header">
                 LOREM IPSUM
                 </h2>
@@ -55,7 +59,8 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
                 </p>
             </li>
-            <li class="text-item">  
+            <li class="text-item"> 
+                <svg><use width="70" height="70" x="100" y="25" href="/images/icons.svg#icon-clock-1"  ></use></svg>
                 <h2 class="text-block-header">
                 LOREM IPSUM
                 </h2>
@@ -63,7 +68,8 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
                 </p>
             </li>
-            <li class="text-item">  
+            <li class="text-item"> 
+                <svg ><use width="70" height="70" x="100" y="25" href="/images/icons.svg#icon-diagram-1"></use></svg>
                 <h2 class="text-block-header">
                 LOREM IPSUM
                 </h2>
@@ -71,7 +77,8 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
                 </p>
             </li>
-            <li class="text-item">  
+            <li class="text-item">
+                <svg ><use width="70" height="70" x="100" y="25" href="/images/icons.svg#icon-astronaut-1"></use></svg>
                 <h2 class="text-block-header">
                 LOREM IPSUM
                 </h2>
@@ -107,9 +114,26 @@
                     <img src="images/johndoe1.jpg" alt="uśmiechniety mężczyzna z brodą" width="270" height="260">
                     <figcaption>
                         <h3 class="team-names">John Doe</h3>
-                        <div>
-                            <p class="team-positions"> Product Designer </p>
-                        </div>
+                        <p class="team-positions"> Product Designer </p>
+                        <div class="team-icons">
+                        <ul class="bullets social-icons " >
+                            <li>
+                                <svg> <use x="12" y="12" width="20" height="20" href="/images/icons.svg#icon-instagram"></use>
+                                </svg>
+                              </li>
+                              <li>
+                                <svg> <use x="12" y="12" width="20" height="20" href="/images/icons.svg#icon-twitter"></use>
+                                </svg>
+                              </li>
+                              <li>
+                                <svg> <use x="12" y="12" width="20" height="20" href="/images/icons.svg#icon-facebook"></use>
+                                </svg>
+                              </li>
+                              <li>
+                                <svg> <use x="12" y="12" width="20" height="20" href="/images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                           </ul>
+                    </div>
                     </figcaption>
                 </figure>
             </li>
@@ -118,9 +142,26 @@
                     <img src="images/johndoe2.jpg" alt="uśmiechnieta kobieta w okularach" width="270" height="260">
                     <figcaption>
                         <h3 class="team-names">John Doe</h3>
-                        <div>
                             <p class="team-positions"> Frontend Developer</p>
-                        </div>
+                            <div class="team-icons">
+                                <ul class="bullets social-icons " >
+                                    <li>
+                                        <svg> <use x="12" y="12" width="20" height="20" href="/images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                      </li>
+                                      <li>
+                                        <svg> <use x="12" y="12" width="20" height="20" href="/images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                      </li>
+                                      <li>
+                                        <svg> <use x="12" y="12" width="20" height="20" href="/images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                      </li>
+                                      <li>
+                                        <svg> <use x="12" y="12" width="20" height="20" href="/images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                   </ul>
+                            </div>
                     </figcaption>
                 </figure>
             </li> 
@@ -129,8 +170,25 @@
                     <img src="images/johndoe3.jpg" alt="uśmiechniety mężczyzna spogladający w lewo" width="270" height="260">
                     <figcaption>
                         <h3 class="team-names">John Doe</h3>
-                        <div>
-                            <p class="team-positions"> Marketing</p>
+                         <p class="team-positions"> Marketing</p>
+                         <div class="team-icons">
+                            <ul class="bullets social-icons " >
+                                <li>
+                                    <svg> <use x="12" y="12" width="20" height="20" href="/images/icons.svg#icon-instagram"></use>
+                                    </svg>
+                                  </li>
+                                  <li>
+                                    <svg> <use x="12" y="12" width="20" height="20" href="/images/icons.svg#icon-twitter"></use>
+                                    </svg>
+                                  </li>
+                                  <li>
+                                    <svg> <use x="12" y="12" width="20" height="20" href="/images/icons.svg#icon-facebook"></use>
+                                    </svg>
+                                  </li>
+                                  <li>
+                                    <svg> <use x="12" y="12" width="20" height="20" href="/images/icons.svg#icon-linkedin"></use>
+                                    </svg>
+                               </ul>
                         </div>
                     </figcaption>
                 </figure>
@@ -140,8 +198,25 @@
                     <img src="images/johndoe4.jpg" alt="uśmiechniety mężczyzna z brodą" width="270" height="260">
                     <figcaption>
                         <h3 class="team-names">John Doe</h3>
-                        <div>
-                            <p class="team-positions"> UI Designer</p>
+                        <p class="team-positions"> UI Designer</p>
+                        <div class="team-icons">
+                            <ul class="bullets social-icons " >
+                                <li>
+                                    <svg> <use x="12" y="12" width="20" height="20" href="/images/icons.svg#icon-instagram"></use>
+                                    </svg>
+                                  </li>
+                                  <li>
+                                    <svg> <use x="12" y="12" width="20" height="20" href="/images/icons.svg#icon-twitter"></use>
+                                    </svg>
+                                  </li>
+                                  <li>
+                                    <svg> <use x="12" y="12" width="20" height="20" href="/images/icons.svg#icon-facebook"></use>
+                                    </svg>
+                                  </li>
+                                  <li>
+                                    <svg> <use x="12" y="12" width="20" height="20" href="/images/icons.svg#icon-linkedin"></use>
+                                    </svg>
+                               </ul>
                         </div>
                         </figcaption>
                 </figure>
@@ -149,10 +224,30 @@
         </ul>
     </div>
 </section>
+<section>
+    <div class="section ourcustomers-container container">
+        <h2 class="text-pictures-header1">Nasi klienci</h2>
+        <ul class="bullets company-icons" >
+            <li><svg class="company-icon" >
+                <use href="/images/icons.svg#icon-company1"></use></svg></li>
+            <li><svg class="company-icon" >
+                <use href="/images/icons.svg#icon-company2"></use></svg></li>
+            <li><svg class="company-icon">
+               <use href="/images/icons.svg#icon-company3"></use></svg></li>
+            <li><svg class="company-icon">
+                <use href="/images/icons.svg#icon-company4"></use></svg></li>
+            <li><svg class="company-icon">
+                <use href="/images/icons.svg#icon-company5"></use></svg></li>
+            <li><svg class="company-icon">
+                <use href="/images/icons.svg#icon-company6"></use></svg></li>
+        </ul>
+    </div>
+</section>
 </main>
 <footer>
-    <section class="footer-background container">
-        <div class="footer-container container">
+    <section class="footer-background">
+        <div class="footer-wrapper container">
+        <div class="footer-container ">
             <a href="index.html" class="footer-logo"><span class="logo1">Web</span><span class="logo2foot">Studio</span></a>
             <ul class="bullets footer-background-list ">
                 <li><address class="footer-address">m. Warszawa, Aleje Jerozolimskie 21</address></li>
@@ -160,6 +255,31 @@
                 <li><address class="footer-phone">+48 111 111 111</address></li>
              </ul>
         </div>
+        <div class="footer-icons">
+            <h4>DOŁĄCZ DO NAS</h4>
+            <ul class="bullets social-icons">
+               <li> <svg class="footer-icon"><use x="12" y="12" width="20" height="20"
+                      href="/images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </li>
+                <li>
+                    <svg class="footer-icon"><use x="12" y="12" width="20" height="20"
+                        href="/images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="footer-icon"><use x="12" y="12" width="20" height="20"
+                        href="/images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="footer-icon"><use x="12" y="12" width="20" height="20"
+                        href="/images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </li>
+                  </ul>
+              </div>
+              </div>
     </section>
 </footer>
 </body>
