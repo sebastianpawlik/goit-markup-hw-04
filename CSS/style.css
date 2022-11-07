@@ -85,28 +85,31 @@ img {
 .navigation-list-item:not(:last-child){
     margin-right: 46px;
 }
-.navigation-list{
-    display: flex;
-    justify-content: center;
-         }
-
 .right-wrapper{
     display:flex;
     justify-content: space-between;
 }
-.navigation-contacts{
-    display:flex
-    margin: 0 auto;
-}
-.icon svg{
-    width:12;
-    height:16;
-    cursor: pointer;
-  }
-    .icon svg:hover {
+.navigation-list{
+    display: flex;
+    justify-content: center;
+            }
+.navigation-contacts svg {
+   margin-right:10px;
+   cursor: pointer;
+   }
+.navigation-contacts:hover svg{
     fill: var(--main-blue);
-}
-  
+    stroke: var(--main-blue);
+    }
+.navigation-contacts{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+       }
+.navigation-contacts:not(:last-child){
+    margin-right: 30px;
+    }
+   
 /* stylowanie h1 i button w index */
 .header-container {
     background-image: url(/images/background_image.jpg);
@@ -180,18 +183,17 @@ img {
     align-items:flex-start;
     justify-content: flex-start;
    }
-.index-text-container svg{
-   background-color: var(--second-white);
-   border-radius: 4px;
-   width: 270px;
-   height: 120px;
-}
- .text-item svg{
-    width: 270px;
+ 
+.index-text-icon{
+    display:flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--second-white);
+    width:270px;
     height:120px;
     border-radius: 4px;
-    margin-bottom: 30px;
-}
+    margin-bottom: 30px;}
 
 /* stylowanie obrazów czym się zajmujemy */
 .whatwedo-container {
@@ -479,7 +481,8 @@ figcaption{
 .social-icons{
     display:flex;
     justify-content: space-between;
-    gap:10px;}
+    gap:10px;
+    padding-bottom: 30px;}
 
 .social-icons svg {
         fill:  var(--second-silver);
@@ -493,23 +496,35 @@ figcaption{
         background-color: var(--main-blue);
         fill: var(--main-white);
         }
+
+
 .company-icons{
         display:flex;
         justify-content:space-between;
-        fill:  var(--second-silver);
-        }
- .company-icon{
-        width: 170px;
-        height: 92px;
-        left: 215px;
-        top: 2493px;
-        border:1px solid var(--second-silver);
+                       }
+.company-icon {
+        display:flex;
+        margin:0 auto;
+        align-items: center;
+        width:170px;
+        height:92px;
         border-radius: 4px;
-         }           
-.company-icon:hover{
+        border:1px solid var(--second-silver);
+        fill: var(--second-silver);
+        gap: 30px;
+    }
+.company-icon:hover {
         fill: var(--main-blue);
         border:1px solid var(--main-blue);
-           }  
+                    } 
+ .company-icon svg{
+        display:flex;
+        margin: 0 auto;
+        align-items: center;
+        width:106px;
+        height:60px;
+         }
+                      
 .footer-wrapper {
     display:flex;
     justify-content: flex-start;
@@ -542,5 +557,7 @@ figcaption{
 .footer-icons :not(:last-child){
     margin-right: 10px;
   }
+.no-padding-bottom{
+    padding-bottom:0;}
 
  
