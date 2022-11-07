@@ -109,7 +109,7 @@ img {
   
 /* stylowanie h1 i button w index */
 .header-container {
-    background-image: url(/images/Img\ \(19\).jpg);
+    background-image: url(/images/background_image.jpg);
     color: var(--main-white);   
     display: flex;
     flex-direction: column;
