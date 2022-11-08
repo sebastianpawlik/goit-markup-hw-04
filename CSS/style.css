@@ -99,8 +99,12 @@ img {
    }
 .navigation-contacts:hover svg{
     fill: var(--main-blue);
-    stroke: var(--main-blue);
-    }
+    stroke: var(--main-blue)
+}
+.navigation-contacts:hover a{
+    color: var(--main-blue);
+     }
+
 .navigation-contacts{
     display:flex;
     justify-content: space-between;
@@ -112,7 +116,7 @@ img {
    
 /* stylowanie h1 i button w index */
 .header-container {
-    background-image: url(/images/background_image.jpg);
+    background-image: url(../images/background_image.jpg);
     color: var(--main-white);   
     display: flex;
     flex-direction: column;
@@ -481,21 +485,29 @@ figcaption{
     display:flex;
     justify-content: space-between;
     gap:10px;
-    padding-bottom: 30px;}
-
+    padding-bottom: 30px;
+   }
 .social-icons svg {
-        fill:  var(--second-silver);
-        width: 44px;
-        height: 44px;
-        background-position: 12px 12px;
-        border-radius: 50%;
-        cursor: pointer;
+    display:flex;
+    justify-content: center;  
+    align-items: center;  
+    fill:  var(--second-silver);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
       }
 .social-icons svg:hover {
+        --color3: var(--main-white);
         background-color: var(--main-blue);
-        fill: var(--main-white);
-        }
-
+}
+.social-icon{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    margin: 0 auto;
+}
+  
 .company-icons{
         display:flex;
         justify-content:space-between;
@@ -512,9 +524,9 @@ figcaption{
         gap: 30px;
     }
 .company-icon:hover {
-        fill: var(--main-blue);
-        border:1px solid var(--main-blue);
-                    } 
+        --color3: var(--main-blue);
+        border:1px solid var(--main-blue);}
+               
  .company-icon svg{
         display:flex;
         margin: 0 auto;
