@@ -187,7 +187,10 @@ img {
     align-items:flex-start;
     justify-content: flex-start;
    }
- 
+  .index-text-icon svg{
+   width:70px;
+   height: 70px;}
+
 .index-text-icon{
     display:flex;
     margin: 0 auto;
@@ -487,31 +490,30 @@ figcaption{
     gap:10px;
     padding-bottom: 30px;
    }
-.social-icons svg {
-    display:flex;
-    justify-content: center;  
-    align-items: center;  
-    fill:  var(--second-silver);
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    cursor: pointer;
-      }
-.social-icons svg:hover {
-        --color3: var(--main-white);
-        background-color: var(--main-blue);
+svg{
+    width: 20px;
+    height: 20px;
 }
-.social-icon{
+.social-icon {
     display: flex;
     justify-content: center;  
     align-items: center;
     margin: 0 auto;
+    width: 44px;
+    height:44px;
+    border-radius:50%;}
+    
+.social-icon:hover {
+    --color3: var(--main-white);
+    fill:var(--main-blue);
+    background-color: var(--main-blue);
 }
-  
-.company-icons{
+    
+.company-icons {
         display:flex;
         justify-content:space-between;
-                       }
+        cursor:pointer;
+        }
 .company-icon {
         display:flex;
         margin:0 auto;
@@ -547,27 +549,30 @@ figcaption{
     line-height: 1,14;
     letter-spacing: 0.03em;
     }
+.footer-icons :not(:last-child){
+        margin-right: 10px;
+      }
+.no-padding-bottom{
+        padding-bottom:0;}
 .footer-icons{
     display:flex;
     flex-direction: column;
     padding-top:72px;
     }
- .footer-icons svg {
-        background-color: rgba(255, 255, 255, 0.1);
-        fill: var(--main-white);
-        width: 44px;
-        height: 44px;
-        background-position: 12px 12px;
-        border-radius: 50%;
-        cursor: pointer;
-    }
-.footer-icon:hover{
-    background-color: var(--main-blue);
-   }  
-.footer-icons :not(:last-child){
-    margin-right: 10px;
-  }
-.no-padding-bottom{
-    padding-bottom:0;}
-
  
+.footer-icon {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    margin: 0 auto;
+    width: 44px;
+    height:44px;
+    border-radius:50%;}
+    
+.footer-icon:hover {
+        --color3: var(--main-white);
+        fill:var(--main-blue);
+        background-color: var(--main-blue);
+    }
+
+  
