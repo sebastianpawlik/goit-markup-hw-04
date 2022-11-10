@@ -427,7 +427,7 @@ body {
     }
 .button {
     font-family: var(--font-family);
-    color: var(--black-main)
+    color: var(--black-main);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -444,6 +444,8 @@ body {
     background-color: var(--main-blue);
     border-color: var(--main-blue);
     cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
      }
  .portfolio-pic{
     display: flex;
@@ -464,6 +466,10 @@ figcaption{
     display:flex;
     flex-basis: calc((100% - (370px*3)) / 3);
    }
+.pic-item:hover{
+ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .pic-item figcaption {
     border: 1px solid;
     border-color: var( --second-white)
@@ -508,7 +514,6 @@ svg{
     fill:var(--main-blue);
     background-color: var(--main-blue);
 }
-    
 .company-icons {
         display:flex;
         justify-content:space-between;
@@ -546,7 +551,7 @@ svg{
     padding-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     }
 .footer-icons :not(:last-child){
@@ -567,12 +572,10 @@ svg{
     margin: 0 auto;
     width: 44px;
     height:44px;
-    border-radius:50%;}
+    border-radius:50%;
+    --color3: var(--main-white);}
     
 .footer-icon:hover {
-        --color3: var(--main-white);
-        fill:var(--main-blue);
+            fill:var(--main-blue);
         background-color: var(--main-blue);
     }
-
-  
