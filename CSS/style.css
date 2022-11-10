@@ -98,8 +98,7 @@ img {
    cursor: pointer;
    }
 .navigation-contacts:hover svg{
-    fill: var(--main-blue);
-    stroke: var(--main-blue)
+  --color4: var(--main-blue);
 }
 .navigation-contacts:hover a{
     color: var(--main-blue);
