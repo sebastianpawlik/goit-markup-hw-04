@@ -135,7 +135,7 @@ header {
   color: var(--main-silver);
   display: flex;
   align-items: center;
- } 
+}
 
 /* STYLIZACJA BODY - STUDIO */
 
@@ -149,6 +149,7 @@ header {
   margin: 0 auto;
   align-items: center;
   justify-content: center;
+  padding: 200px 0px;
 }
 .main-section-header {
   display: flex;
@@ -441,7 +442,7 @@ h4 {
   height: 44px;
   border-radius: 50%;
   --color3: var(--main-white);
-  background: rgba(255, 255, 255, 0.1)
+  background: rgba(255, 255, 255, 0.1);
 }
 .footer-social-icon:hover {
   fill: var(--main-blue);
